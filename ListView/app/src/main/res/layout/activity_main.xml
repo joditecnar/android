@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/fondo1"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,16 +15,16 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="13dp"
         android:layout_marginBottom="501dp"
-        android:background="#46E4DADA"
+        android:background="#EB03A9F4"
         android:textAllCaps="true"
-        android:textColor="#FF5722"
+        android:textColor="#FDFAFA"
         android:textSize="29sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065" />
+        app:layout_constraintVertical_bias="0.046" />
 
     <TextView
         android:id="@+id/TextView"
@@ -32,7 +33,7 @@
         android:text="@string/TextView"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="#2196F3"
+        android:textColor="#FFEB3B"
         android:textSize="19sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,12 +51,12 @@
         android:layout_marginTop="145dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
-        android:background="#2FEBE4E4"
-        android:clickable="false"
-        android:clipChildren="false"
-        android:clipToPadding="false"
-        android:contextClickable="false"
-        android:listSelector="#902196F3"
+        android:background="#FFC107"
+        android:backgroundTint="#EE03A9F4"
+        android:cacheColorHint="#00241B1B"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:listSelector="@color/colorAccent"
         android:longClickable="false"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
